@@ -9,7 +9,7 @@ original zip file
 ### Adding `dezip` and `f_collect` to your project
 1. Download the assignment files from canvas. Unzip it so that all the students zipped submissions are placed in a common 
 folder
-2. Place `dezip.sh` and `f_colelct.sh` within the folder that contains the students zipped submi
+2. Place `dezip.sh` and `f_colelct.sh` within the folder that contains the individual zipped submissions
 3. Open up a terminal window and change your current working directory to the folder that contains the students zipped assignments
 4. Once there run the following command to change the permissions for dezip and f_collect:
 
