@@ -32,13 +32,15 @@ Usually, you want to collect files of a given file type. In this example, I will
 ### Finally, Run Moss ###
 1. Now, you can cd to the `collected_files` folder
 2. Place your moss.pl file within the collect_files folder and change the permissions like you did earlier for dzip
-2. A typical moss example looks like: 
+2. A typical moss commnand when you used dezip and f_collect looks like: 
 
 ` ./moss.pl -l java -b ./basefiles/Car.java -b ./basefiles/ProcessCarData.java -d ./*/*`
 
-The various flags mean:
--b the base files for the comparison are located in these directories
--d ./*/*  the submissions are to be taken folder by folder
+**The various flags mean**:<br>
+**-l** The target language is java<br>
+**-b** The base files for the comparison are located in these directories<br>
+**-d**  The submissions are to be taken folder by folder <br>
+
 
 ***
 There are still a couple of bugs that need to be worked out but this works for the most part if used correctly 
