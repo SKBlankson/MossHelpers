@@ -1,8 +1,8 @@
 ## Using De-Zip and F_Collect
 ### Description: 
-**De-zip:** De-Zip unzips files and places them in a new folder which has the same name as the 
+- **De-zip:** De-Zip unzips files and places them in a new folder which has the same name as the 
 original zip file
-**F_Collect:** F_Collect collects files of a specific type and palces them in a new folder containing the same file name
+- **F_Collect:** F_Collect collects files of a specific type and palces them in a new folder containing the same file name
 
 ***
 ## Instructions ##
