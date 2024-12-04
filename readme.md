@@ -15,7 +15,7 @@ folder
 
     `chmod 777 dezip.sh f_collect.sh`
 
-### Using `dezip` to extract and rename submissions
+### Using `dezip.sh` to extract and rename submissions
 1. Run the command `./dezip.sh`
 
     This will extract all the zip files and place them in separate folders.
