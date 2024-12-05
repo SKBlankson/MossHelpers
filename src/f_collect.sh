@@ -72,8 +72,8 @@ echo -e "${BLUE}Found ${student_count} student folder(s) in the directory.${NC}"
 
 # Loop through each student folder in the root directory
 for student_folder in */; do
-    # Check if it's a directory (skip if it's not)
-    if [ -d "$student_folder" ]; then
+    # Check if it's a directory and not named "collected_files"
+    if [ -d "$student_folder" ] && [ "$(basename "$student_folder")" != "collected_files" ]; then
         # Get the student's name (or folder name) to create a subdirectory in collected_files
         student_name=$(basename "$student_folder")
         student_collected_dir="$COLLECTED_DIR/$student_name"
@@ -88,6 +88,7 @@ for student_folder in */; do
         done
     fi
 done
+
 
 # Final report: Number of folders collected
 collected_count=$(find "$COLLECTED_DIR" -mindepth 1 -maxdepth 1 -type d | wc -l)
